@@ -128,7 +128,7 @@ class FourierCirclesScene(Scene):
         return result
     
     def get_path(self):
-        tex_mob = MathTex(r"\pi")
+        tex_mob = MathTex(r"\phi")
         tex_mob.scale_to_fit_height(4)
         path = tex_mob.family_members_with_points()[0]
         path.set_fill(opacity=0)
